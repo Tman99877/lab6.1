@@ -1,0 +1,65 @@
+nav{
+	 
+text-align: center;	
+
+height: 120px;
+ font-size: 40px;
+ border: solid;
+border-width: 20px 20px 20px 20px;
+font-style: Merriweather;
+
+}
+
+h1{
+text-align: center;
+font-size: 35px;
+font-style: Merriweather;
+}
+
+div{
+ 	
+ height: 500px;
+  width: 1400px;
+  
+text-align: center;
+
+font-size: 35px;
+
+
+font-style: Open Sans;
+border-width: 20px 20px 20px 20px;
+
+border: solid;
+padding: 50px; 
+background-color: #663399;
+}
+
+img{
+	border: solid;
+	
+}
+
+footer{
+	text-align: center;
+}
+
+body{
+	border: solid;
+}
+
+table{
+text-align: center;
+font-size: 25px;
+font-style: Merriweather;	 
+padding: 60px;
+margin-left: auto;
+margin-right: auto;
+color: #FF3399;
+}
+
+h2{
+text-align: center;
+font-size: 25px;
+font-style: Merriweather;
+color: #FF3399;
+}
