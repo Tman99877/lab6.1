@@ -63,3 +63,9 @@ font-size: 25px;
 font-style: Merriweather;
 color: #FF3399;
 }
+
+
+
+ a:hover:not(.active) {
+  background-color: #555;
+  color: #f1f1f1;
