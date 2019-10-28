@@ -74,7 +74,16 @@ font-style: Merriweather;
 color: #FF3399;
 }
 
+form{
+text-align: center;
+font-size: 25px;
+font-style: Merriweather;	 
+padding-top: 40px;
+margin-left: 25%;
+margin-right: 25%;
+color: #FF7733 ;
 
+}
 
  a:hover:not(.active) {
   background-color: #555;
