@@ -51,10 +51,20 @@ table{
 text-align: center;
 font-size: 25px;
 font-style: Merriweather;	 
-padding: 60px;
+padding: 65px;
 margin-left: auto;
 margin-right: auto;
 color: #FF3399;
+border-color: coral;
+}
+
+th{
+border-color: #33EEFF ;	
+}
+
+tr{
+color: #EDFF33;
+border-color: #33FF88;
 }
 
 h2{
