@@ -3,88 +3,93 @@ nav{
 text-align: center;	
 
 height: 120px;
- font-size: 40px;
- border: solid;
-border-width: 20px 20px 20px 20px;
-font-style: Merriweather;
+ font-size:40px;
+ border:solid;
+border-width:20px 20px 20px 20px;
+font-family:Merriweather;
 
 }
 
 h1{
 text-align: center;
 font-size: 35px;
-font-style: Merriweather;
+font-family:Merriweather;
+text-align: center;	
 }
 
 div{
  	
- height: 500px;
-  width: 1400px;
+ height:500px;
+  width:1400px;
   
-text-align: center;
+text-align:center;
 
-font-size: 35px;
+font-size:35px;
 
 
-font-style: Open Sans;
-border-width: 20px 20px 20px 20px;
+font-family:"Open Sans";
+border-width:20px 20px 20px 20px;
 
-border: solid;
-padding: 50px; 
-background-color: #663399;
+border:solid;
+padding:50px; 
+
+background-color:#663399;
 }
 
 img{
-	border: solid;
+	border:solid;
 	
 }
 
 footer{
-	text-align: center;
+	text-align:center;
 }
 
 body{
 	border: solid;
+	background-color:#d69e54
+
 }
 
 table{
-text-align: center;
-font-size: 25px;
-font-style: Merriweather;	 
-padding: 65px;
-margin-left: auto;
-margin-right: auto;
+text-align:center;
+font-size:25px;
+font-family:Merriweather;	 
+padding:65px;
+margin-left:auto;
+margin-right:auto;
 color: #FF3399;
-border-color: coral;
+border-color:coral;
 }
 
 th{
-border-color: #33EEFF ;	
+border-color:#33EEFF ;	
 }
 
 tr{
-color: #EDFF33;
-border-color: #33FF88;
+color:#EDFF33;
+border-color:#33FF88;
 }
 
 h2{
-text-align: center;
-font-size: 25px;
-font-style: Merriweather;
-color: #FF3399;
+text-align:center;
+font-size:25px;
+font-family:Merriweather;
+color:#FF3399;
 }
 
 form{
-text-align: center;
-font-size: 25px;
-font-style: Merriweather;	 
+text-align:center;
+font-size:25px;
+font-family:Merriweather;	 
 
-margin-left: 25%;
-margin-right: 25%;
-color: #FF7733 ;
+margin-left:25%;
+margin-right:25%;
+color:#FF7733 ;
 
 }
 
  a:hover:not(.active) {
-  background-color: #555;
-  color: #f1f1f1;
+  background-color:#555;
+  color:#f1f1f1;
+ }

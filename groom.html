@@ -1,12 +1,14 @@
 <html>
 <head>
+ <meta charset="UTF-8">
+  <meta name="description" content="Finding packages offered for grooming">
 <title>A Dog's Life</title>
-<link rel="stylesheet" href = "dogs.css"/>
+<link rel="stylesheet" href = "dogs.css" type = "text/css" />
 </head>
 
 <h1> <img src="treat.png" alt="treats" width="200" height="100"> A Dog's Life Homepage <img src="paw.png" alt="paw" width="200" height="100"> </h1>  
 
-<body bgcolor=#a83297>
+<body style="background-color: #a83297">
 
 <nav>
 <b> &nbsp <a href= "index.html">Home</a></b> &nbsp <b> &nbsp <a href= "groom.html"> Grooming Services</a></b> <b> &nbsp <a href= "location.html">Our location </a></b> <b> &nbsp <a href= "contact.html">Contact us</a></b> <b> &nbsp <a href= "goodpet.html">How to select a good pet </a></b>
@@ -18,7 +20,7 @@
 <img src ="clean.jpg"  height = 400 width = 400 align = left>  <img src ="clean2.jpg"  height = 400 width = 400 align = right> 
 <h2>Our Amazing Grooming Service options for your amazing dog</h2>
 
-<table border= "4"> 
+<table border= "4" cellpadding = "12" cellspacing = "2"  align = center> 
  <tr>
   <th>Grooming package</th>
   <th>Price</th>
@@ -38,22 +40,22 @@
 </table>
 
  <form action="http://webdevbasics.net/scripts/demo.php">
-First name:<br>
-  <input type="text" name="firstname" ><br>
-  Last name:<br>
-  <input type="text" name="lastname" ><br>
+First name:
+  <input type="text" name="firstname"  required>
+  Last name:
+  <input type="text" name="lastname"  required><br>
   <input type="submit" value="Submit">
   <input type="reset">
 <br>
  Please enter your email
- <input type="email">
+ <input type="email" required>
   
   <input type="submit" value="Submit">
    <input type="reset" value="Reset">
    <br>
    
    Telephone: 
-  <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"> 
+  <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required> 
    <input type="submit" value="Submit">
    <input type="reset" value="Reset">
   
